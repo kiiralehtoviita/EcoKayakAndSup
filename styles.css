@@ -60,8 +60,28 @@ footer{
     background: var(--color-azul,#092579);
     align-content: start;
     margin-top: 30px;
+    font-family: var(--font-main);
 }
 
-.footer_menu {
-  display: flex;
+.footer_icons{
+    margin-top: 1.81rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:1.06rem;
 }
+
+.footer_nav{
+    list-style: none;
+    display: flex;
+    gap:1.31rem;
+    margin-left: 5rem;
+    color: var(--Beige, #F8F0E2);
+text-align: center;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
