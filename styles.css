@@ -206,6 +206,10 @@ h2 {
   line-height: normal;
 }
 
+.inicio {
+  margin: 5.37rem 5rem;
+}
+
 .inicio p {
   color: #1e1e1e;
   font-family: var(--font-main);
@@ -215,14 +219,25 @@ h2 {
   line-height: normal;
 }
 
-.inicio_container{
-    display: flex;
-    flex-direction: column;
-    gap:13.44rem;
-    justify-content: center;
-    align-items: center;
+.inicio_container {
+  display: flex;
+  flex-direction: column;
+  gap: 13.44rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.box_inicio{
-    
+.box_inicio img {
+  display: block;
+  width: 80rem;
+  height: 32.3125rem;
+  margin-bottom: 5.38rem;
+}
+
+.box_inicio p{
+    width: 79.9375rem;
+}
+
+.inicio_title{
+    margin-bottom: 4.06rem;
 }
