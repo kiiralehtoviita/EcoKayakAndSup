@@ -23,15 +23,22 @@
   background: var(--Beige, #f8f0e2);
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
   display: flex;
+  justify-content: space-between;
 }
 
 .boton-menu{
   list-style: none;
-  text-decoration:none;
 }
 
-.menu{
+.botones-menu{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+
+a{
+    text-decoration: none;
 }
 
 
