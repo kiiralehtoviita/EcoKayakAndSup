@@ -22,9 +22,17 @@
 .menu-container {
   background: var(--Beige, #f8f0e2);
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
 }
 
-.botones-menu li{
+.boton-menu{
   list-style: none;
-  text-decoration: none;
+  text-decoration:none;
 }
+
+.menu{
+    display: flex;
+}
+
+
+
