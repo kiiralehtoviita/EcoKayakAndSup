@@ -52,7 +52,7 @@
         <input type="text" id="código_de_descuento" name="código_de_descuento" />
 <input type="checkbox" id="terminos_y_condiciones">
 <label for="terminos_y_condiciones"> Acepto y he leído la política de privacidad de mis datos. </label>
-<button type="submit">Reservar</button>
+<button onclick="reservar()">Reservar</button>
 </form>
         
         
@@ -71,8 +71,12 @@
 </ul>
  </nav>
    <p> <img src="Imagenes/Icono Ubicación.png" alt="Icono ubicación">Pg. Marítim de la Barceloneta, 0, Ciutat Vella, 08003 Barcelona</p>
-<button type="submit">Reservar</button>
+<button onclick="reservar()">Reservar</button>
 </footer>
-    
+    <script>
+  function reservar() {
+    alert("¡Reserva realizada con éxito!");
+  }
+</script>
 </body>
 </html>
