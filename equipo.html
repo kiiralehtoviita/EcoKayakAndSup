@@ -113,27 +113,28 @@
     </main>
 
       <footer> <!--hay que organizar el orden en css-->
-  <nav class="footer_menu">
-    
-     <ul>
+  <nav>
+     <ul class="footer_icons">
         <li><img src="Imagenes/Icono Instagram.png" alt="Icono Instagram"></li>
         <li><img src="Imagenes/Icono Facebook.png" alt="Icono Facebook"></li>
         <li><img src="Imagenes/Icono Whatsapp.png" alt="Icono Whatsapp"></li>
     </ul>
-
-    <ul>
-    <li><a href="inicio.html">Inicio</a></li>
-    <li><a href="servicios.html">Servicios</a></li>
-    <li><a href="equipo.html">Equipo</a></li>
-    <li><a href="#">Contacto</a></li>
- 
-
-  
-  <li>© 2024 Eco Kayak and SUP. Todos los derechos reservados.<li></li>
+  </nav>
+  <div class="footer_data">
+<nav>
+    <ul class="footer_nav">
+    <li><a href="inicio.html" class="button_footer">Inicio</a></li>
+    <li><a href="servicios.html" class="button_footer">Servicios</a></li>
+    <li><a href="equipo.html" class="button_footer">Equipo</a></li>
+    <li><a href="#" class="button_footer">Contacto</a></li>
+    <li>© Eco Kayak & Sup BCN</li>
 </ul>
  </nav>
-   <p> <img src="Imagenes/Icono Ubicación.png" alt="Icono ubicación">Pg. Marítim de la Barceloneta, 0, Ciutat Vella, 08003 Barcelona</p>
-<button onclick="reservar()">Reservar</button>
+ <div class="footer_ubication">
+   <img class="ubication_icon" src="Imagenes/Icono Ubicación.png" alt="Icono ubicación"><p class="ubication">Pg. Marítim de la Barceloneta, 0, Ciutat Vella, 08003 Barcelona</p>
+    <button onclick="reservar()" class="button_reservar">Reservar</button>
+ </div>
+  </div>
 </footer>
     <script>
   function reservar() {
