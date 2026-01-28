@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+    background-color: var(--color-beige, #f8f0e2);
+}
+
 :root {
   --color-negro: #000000;
   --color-azul: #092579;
@@ -240,4 +244,11 @@ h2 {
 
 .inicio_title{
     margin-bottom: 4.06rem;
+}
+
+
+/* Estilo servicios */
+
+.servicios{
+    display: flex;
 }
