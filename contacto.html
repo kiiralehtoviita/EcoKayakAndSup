@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="menu">
@@ -16,8 +19,9 @@
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
+        <main>
         <h1>Contacto</h1>
-        <div class="box">
+        <div class="box_de_contacto">
             <ul>
         <li> <img src="Imagenes/Icono correo.png" alt="Icono correo"> ecokayak&sup@gmail.com</a></li>
         <li><img src="Imagenes/Icono teléfono.png" al="Icono teléfono">+34 64X XX XX XX</a></li>
@@ -26,10 +30,31 @@
         </ul>
     </div>
     <h2>Reserva ahora, sin compromiso</h2>
+    
     <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" />
+         <label for="name">Correo eléctronico:</label>
+        <input type="text" id="correo_eléctronico" name="correo" />
+          <label for="name">Teléfono</label>
+        <input type="text" id="teléfono" name="teléfono" />
+          <label for="name">Fecha de la reserva</label>
+        <input type="text" id="fecha_de_la_reserva" name="fecha_de_la_reserva" />
+         <label for="name">Hora</label>
+        <input type="text" id="hora" name="hora" />
+        <label for="name">Tipo de actividad</label>
+        <input type="text" id="tipo_de_actividad" name="tipo_de_actividad" />
+         <label for="name">Cantidad de adultos +14 años</label>
+        <input type="text" id="cantidad_de_adultos" name="cantidad_de_adultos" />
+        <label for="name">Cantidad de niños 6 a 13 años</label>
+        <input type="text" id="cantidad_de_niños" name="cantidad_de_niños" />
+        <label for="name">Código de descuento</label>
+        <input type="text" id="código_de_descuento" name="código_de_descuento" />
+
+        
         
     </form>
-
+</main>
       <footer> <!--hay que organizar el orden en css-->
   <ul class="footer-menu">
     <li><a href="inicio.html">Inicio</a></li>
