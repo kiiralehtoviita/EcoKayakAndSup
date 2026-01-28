@@ -42,4 +42,12 @@ a{
 }
 
 
+.footer_menu {
 
+  display: flex;
+  text-decoration: none;
+  align-content:start;
+  margin-top: 30px;
+  background-color: #092579;
+
+}
