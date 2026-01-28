@@ -42,6 +42,7 @@
   list-style: none;
 }
 
+<<<<<<< HEAD
 .botones-menu {
   display: flex;
   justify-content: center;
@@ -175,4 +176,25 @@ footer {
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+=======
+.botones-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.footer {
+  display: flex;
+  text-decoration: none;
+  align-content:start;
+  margin-top: 30px;
+  background-color: var(--color-azul, #092579);
+
+>>>>>>> dd4dd0e (cambios footer css)
 }
