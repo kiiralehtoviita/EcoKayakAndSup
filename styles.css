@@ -17,6 +17,7 @@
 .logo {
   width: 12.3125rem;
   height: auto;
+  margin-left: 5rem;
 }
 
 .menu-container {
@@ -24,30 +25,37 @@
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.boton-menu{
+.menu {
+  font-family: var(--font-main);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 11rem;
+}
+
+.boton-menu {
   list-style: none;
 }
 
-.botones-menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:5rem;
+.botones-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-
 
 .footer_menu {
-
   display: flex;
   text-decoration: none;
-  align-content:start;
+  align-content: start;
   margin-top: 30px;
   background-color: #092579;
-
 }
