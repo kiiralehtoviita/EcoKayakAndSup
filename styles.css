@@ -89,6 +89,15 @@ footer {
   line-height: normal;
 }
 
+.button_footer:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: 0.2rem;
+  text-underline-position: from-font;
+}
+
 .footer_nav li {
   color: var(--Beige, #f8f0e2);
 }
@@ -175,4 +184,33 @@ footer {
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+}
+
+h1 {
+  color: var(--Azul, #092579);
+  text-align: center;
+  font-family: var(--font-main);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  color: var(--Negro, rgba(0, 0, 0, 0.99));
+  text-align: center;
+  font-family: var(--font-main);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.inicio p {
+  color: #1e1e1e;
+  font-family: var(--font-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
