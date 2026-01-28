@@ -19,8 +19,23 @@
   height: auto;
 }
 
-.menu-container{
-    background: var(--Beige, #F8F0E2);
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+.menu-container {
+  background: var(--Beige, #f8f0e2);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
 }
 
+.menu ul{
+  color: var(--Naranja, #eb6209);
+  text-align: center;
+  font-family: "Andika New Basic";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
