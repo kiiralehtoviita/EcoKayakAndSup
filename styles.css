@@ -137,3 +137,42 @@ footer {
   font-weight: 700;
   line-height: normal;
 }
+
+.button_reservar:hover {
+  border-radius: 2.1875rem;
+  border: 2px solid var(--Naranja, #eb6209);
+  color: var(--color-naranja, #eb6209);
+  background: var(--Beige, #f8f0e2);
+}
+
+.button_menu:hover {
+  color: var(--Naranja, #eb6209);
+  text-align: center;
+  font-family: var(--font-main);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.active {
+  color: var(--Naranja, #eb6209);
+  text-align: center;
+  font-family: var(--font-main);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
