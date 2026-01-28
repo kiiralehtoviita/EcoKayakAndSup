@@ -1,13 +1,16 @@
+/* Reset estilos global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Estilos cuerpo pagina */
 body {
   background-color: var(--color-beige, #f8f0e2);
 }
 
+/* Definicion de variables */
 :root {
   --color-negro: #000000;
   --color-azul: #092579;
@@ -18,12 +21,14 @@ body {
   --font-main: "Andika", sans-serif;
 }
 
+/*Medidas logotipo */
 .logo {
   width: 12.3125rem;
   height: auto;
   margin-left: 5rem;
 }
 
+/* Barra de navegacion estilo */
 .menu-container {
   background: var(--Beige, #f8f0e2);
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
@@ -57,6 +62,7 @@ a {
   text-decoration: none;
 }
 
+/* Footer estilo */
 footer {
   display: flex;
   flex-direction: column;
@@ -173,6 +179,10 @@ footer {
   text-underline-offset: auto;
   text-underline-position: from-font;
 }
+
+/* a:visited{
+    color: inherit;
+} */
 
 .active {
   color: var(--Naranja, #eb6209);
@@ -350,6 +360,7 @@ p {
 
 .objetivos_container {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.25rem;
   justify-content: space-between;
   margin-top: 1.25rem;
