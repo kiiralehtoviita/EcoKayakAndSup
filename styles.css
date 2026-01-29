@@ -463,6 +463,10 @@ input {
   flex-direction: column;
   justify-content: flex-start;
 }
+.form-group label{
+    display:flex;
+    gap: 0.6rem;
+}
 
 .button_reservar_form {
   margin-left: 1.25rem;
