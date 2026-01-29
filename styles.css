@@ -324,7 +324,7 @@ p {
   justify-content: center;
   margin-left: 5rem;
   margin-right: 5rem;
-  margin-bottom:12.63rem;
+  margin-bottom: 12.63rem;
   margin-top: 4.56rem;
 }
 
@@ -351,7 +351,7 @@ p {
 
 .card_equipo img {
   width: 19rem;
-  height:21rem;
+  height: 21rem;
 }
 
 .card_equipo h3 {
@@ -376,4 +376,130 @@ p {
   gap: 1.25rem;
   flex-shrink: 0;
   color: var(--color-beige);
+}
+
+/* Estilos contacto */
+.contacto {
+  display: flex;
+  margin: 3.63rem 5rem;
+  gap: 8rem;
+  justify-content: center;
+}
+
+.card_contacto {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.69rem;
+  margin-top: 1.38rem;
+  border-radius: 0.75rem;
+  background: var(--Azul, #092579);
+  width: 32.625rem;
+  height: 16.375rem;
+  padding: 0.8125rem 1.125rem;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--color-beige);
+  font-family: var(--font-main);
+  color: var(--Beige, #f8f0e2);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info_card {
+  display: flex;
+  gap: 1.12rem;
+}
+
+.info_card img {
+  width: 1.5rem;
+  height: 1.5rem;
+  aspect-ratio: 1/1;
+}
+
+/* Estilos formulario */
+.form_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: var(--font-main);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  border-radius: 0.25rem;
+  border: 1px solid var(--Azul, #092579);
+  background: #fff;
+  display: flex;
+  padding: 0.3125rem 0.625rem;
+  align-items: flex-start;
+  gap: 0.25rem;
+  align-self: stretch;
+}
+
+::placeholder {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.62rem 0.3rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.button_reservar_form {
+  margin-left: 1.25rem;
+  border-radius: 2.1875rem;
+  border: none;
+  background: var(--color-naranja, #eb6209);
+  display: flex;
+  width: 32.625rem;
+  padding: 0.5rem 3.125rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  color: var(--color-azul, #092579);
+  font-family: var(--font-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button_reservar_form:hover {
+  border-radius: 2.1875rem;
+  border: 2px solid var(--Naranja, #eb6209);
+  color: var(--color-naranja, #eb6209);
+  background: var(--Beige, #f8f0e2);
+}
+
+.checkbox {
+  display: flex;
+  gap: 0.62rem;
+  margin-bottom: 2.19rem;
+  align-items: center;
+}
+
+#terminos_y_condiciones {
+  width: 1rem;
+height: 1rem;
+flex-shrink: 0;
+aspect-ratio: 1/1;
 }

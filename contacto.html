@@ -1,93 +1,200 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eco Kayak & SUP</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="icon" href="Imagenes/favicon.svg" type="image/svg+xml">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Imagenes/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
     <header class="menu-container">
       <img src="Imagenes/Logo proyecto 1 def.svg" alt="logotipo" class="logo" />
       <nav class="menu">
         <ul class="botones-menu">
-          <li class="boton-menu"><a href="inicio.html" class="button_menu">Inicio</a></li>
-          <li class="boton-menu"><a href="servicios.html" class="button_menu">Servicios</a></li>
-          <li class="boton-menu"><a href="equipo.html" class="button_menu">Equipo</a></li>
-          <li class="boton-menu"><a href="#" class="button_menu active">Contacto</a></li>
+          <li class="boton-menu">
+            <a href="inicio.html" class="button_menu">Inicio</a>
+          </li>
+          <li class="boton-menu">
+            <a href="servicios.html" class="button_menu">Servicios</a>
+          </li>
+          <li class="boton-menu">
+            <a href="equipo.html" class="button_menu">Equipo</a>
+          </li>
+          <li class="boton-menu">
+            <a href="#" class="button_menu active">Contacto</a>
+          </li>
         </ul>
       </nav>
     </header>
-        <main>
-        <h1>Contacto</h1>
-        <div class="box_de_contacto">
-            <ul>
-        <li> <img src="Imagenes/Icono correo.png" alt="Icono correo"> ecokayak&sup@gmail.com</li>
-        <li> <img src="Imagenes/Icono teléfono.png" alt="Icono teléfono">+34 64X XX XX XX</li>
-        <li> <img src="Imagenes/Icono Ubicación.png" alt="Icono ubicación">Pg. Marítim de la Barceloneta, 0, Ciutat Vella, 08003 Barcelona</li>
-        <li><img src="Imagenes/Icono horario.png" alt="Icono horario">6:00 am - 14:30 pm, 17:30 pm - 20:00 pm</li>
+    <main class="contacto">
+      <section class="container_contacto">
+        <h2>Contacto</h2>
+        <ul class="card_contacto">
+          <li class="info_card">
+            <img src="Imagenes/Icono correo.png" alt="Icono correo" />
+            ecokayak&sup@gmail.com
+          </li>
+          <li class="info_card">
+            <img src="Imagenes/Icono teléfono.png" alt="Icono teléfono" />+34
+            64X XX XX XX
+          </li>
+          <li class="info_card">
+            <img src="Imagenes/Icono Ubicación.png" alt="Icono ubicación" />Pg.
+            Marítim de la Barceloneta, 0, Ciutat Vella, 08003 Barcelona
+          </li>
+          <li class="info_card">
+            <img src="Imagenes/Icono horario.png" alt="Icono horario" />6:00 am
+            - 14:30 pm, 17:30 pm - 20:00 pm
+          </li>
         </ul>
-    </div>
-    <h2>Reserva ahora, sin compromiso</h2>
-    
-    <form>
-        <label for="name">Nombre</label>
-        <input type="text" id="name" name="name" />
-        <label for="name">Correo eléctronico</label>
-        <input type="text" id="correo_eléctronico" name="correo" />
-        <label for="name">Teléfono</label>
-        <input type="text" id="teléfono" name="teléfono" />
-        <label for="name">Fecha de la reserva</label>
-        <input type="text" id="fecha_de_la_reserva" name="fecha_de_la_reserva" />
-        <label for="name">Hora</label>
-        <input type="text" id="hora" name="hora" />
-        <label for="name">Tipo de actividad</label>
-        <input type="text" id="tipo_de_actividad" name="tipo_de_actividad" />
-        <label for="name">Cantidad de adultos +14 años</label>
-        <input type="text" id="cantidad_de_adultos" name="cantidad_de_adultos" />
-        <label for="name">Cantidad de niños 6 a 13 años</label>
-        <input type="text" id="cantidad_de_niños" name="cantidad_de_niños" />
-        <label for="name">Código de descuento</label>
-        <input type="text" id="código_de_descuento" name="código_de_descuento" />
-<input type="checkbox" id="terminos_y_condiciones">
-<label for="terminos_y_condiciones"> Acepto y he leído la política de privacidad de mis datos. </label>
-<button onclick="reservar()">Reservar</button>
-</form>
-        
-        
-</main>
-      <footer> <!--hay que organizar el orden en css-->
-  <nav>
-     <ul class="footer_icons">
-        <li><img src="Imagenes/Icono Instagram.png" alt="Icono Instagram"></li>
-        <li><img src="Imagenes/Icono Facebook.png" alt="Icono Facebook"></li>
-        <li><img src="Imagenes/Icono Whatsapp.png" alt="Icono Whatsapp"></li>
-    </ul>
-  </nav>
-  <div class="footer_data">
-<nav>
-    <ul class="footer_nav">
-    <li><a href="inicio.html" class="button_footer">Inicio</a></li>
-    <li><a href="servicios.html" class="button_footer">Servicios</a></li>
-    <li><a href="equipo.html" class="button_footer">Equipo</a></li>
-    <li><a href="#" class="button_footer">Contacto</a></li>
-    <li>© Eco Kayak & Sup BCN</li>
-</ul>
- </nav>
- <div class="footer_ubication">
-   <img class="ubication_icon" src="Imagenes/Icono Ubicación.png" alt="Icono ubicación"><p class="ubication">Pg. Marítim de la Barceloneta, 0, Ciutat Vella, 08003 Barcelona</p>
-    <button onclick="reservar()" class="button_reservar">Reservar</button>
- </div>
-  </div>
-</footer>
+      </section>
+
+      <section class="form">
+        <h2>Reserva ahora, sin compromiso</h2>
+
+        <form class="form_container">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" placeholder="Kayakfan26" />
+          <label for="email">Correo eléctronico</label>
+          <input
+            type="email"
+            id="correo_eléctronico"
+            name="correo"
+            placeholder="mail26@gmail.com"
+          />
+          <label for="telefono">Teléfono</label>
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            placeholder="6XX XX XX XX"
+          />
+          <label for="fecha">Fecha de la reserva</label>
+          <input
+            type="date"
+            id="fecha_de_la_reserva"
+            name="fecha_de_la_reserva"
+            placeholder="DD/MM/AAAA"
+          />
+          <label for="hora">Hora</label>
+          <input type="time" id="hora" name="hora" placeholder="Kayakfan26" />
+          <!-- <label for="name">Tipo de actividad</label>
+          <input type="text" id="tipo_de_actividad" name="tipo_de_actividad" placeholder="Kayakfan26"/> -->
+          <fieldset class="form-group">
+            <legend>Actividad</legend>
+
+            <label>
+              <input type="radio" name="actividad" value="kayak" required />
+              Kayak
+            </label>
+
+            <label>
+              <input type="radio" name="actividad" value="paddle-surf" />
+              Paddle surf
+            </label>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Número de personas</legend>
+
+            <div class="personas">
+              <label for="adultos">Adultos (+14 años)</label>
+              <input
+                type="number"
+                id="adultos"
+                name="adultos"
+                min="0"
+                value="0"
+                max="4"
+              />
+            </div>
+
+            <div class="personas">
+              <label for="ninos">Niños (6 a 13 años)</label>
+              <input type="number" id="ninos" name="ninos" min="0" value="0" max="4" />
+            </div>
+          </fieldset>
+
+          <!-- <label for="name">Cantidad de adultos +14 años</label>
+          <input
+            type="text"
+            id="cantidad_de_adultos"
+            name="cantidad_de_adultos"
+            placeholder="Kayakfan26"
+          />
+          <label for="name">Cantidad de niños 6 a 13 años</label>
+          <input
+            type="text"
+            id="cantidad_de_niños"
+            name="cantidad_de_niños"
+            placeholder="Kayakfan26"
+          /> -->
+          <label for="name">Código de descuento</label>
+          <input
+            type="text"
+            id="código_de_descuento"
+            name="código_de_descuento"
+            placeholder="2026CLEANSEA"
+          />
+          <label for="terminos_y_condiciones" class="checkbox">
+            <input type="checkbox" id="terminos_y_condiciones" />
+            Acepto y he leído la política de privacidad de mis datos.
+          </label>
+          <button onclick="reservar()" class="button_reservar_form">Reservar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <!--hay que organizar el orden en css-->
+      <nav>
+        <ul class="footer_icons">
+          <li>
+            <img src="Imagenes/Icono Instagram.png" alt="Icono Instagram" />
+          </li>
+          <li>
+            <img src="Imagenes/Icono Facebook.png" alt="Icono Facebook" />
+          </li>
+          <li>
+            <img src="Imagenes/Icono Whatsapp.png" alt="Icono Whatsapp" />
+          </li>
+        </ul>
+      </nav>
+      <div class="footer_data">
+        <nav>
+          <ul class="footer_nav">
+            <li><a href="inicio.html" class="button_footer">Inicio</a></li>
+            <li>
+              <a href="servicios.html" class="button_footer">Servicios</a>
+            </li>
+            <li><a href="equipo.html" class="button_footer">Equipo</a></li>
+            <li><a href="#" class="button_footer">Contacto</a></li>
+            <li>© Eco Kayak & Sup BCN</li>
+          </ul>
+        </nav>
+        <div class="footer_ubication">
+          <img
+            class="ubication_icon"
+            src="Imagenes/Icono Ubicación.png"
+            alt="Icono ubicación"
+          />
+          <p class="ubication">
+            Pg. Marítim de la Barceloneta, 0, Ciutat Vella, 08003 Barcelona
+          </p>
+          <button onclick="reservar()" class="button_reservar">Reservar</button>
+        </div>
+      </div>
+    </footer>
     <script>
-  function reservar() {
-    alert("¡Reserva realizada con éxito!");
-  }
-</script>
-</body>
+      function reservar() {
+        alert("¡Reserva realizada con éxito!");
+      }
+    </script>
+  </body>
 </html>
