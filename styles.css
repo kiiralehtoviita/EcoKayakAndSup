@@ -285,7 +285,7 @@ p {
 .servicios {
   display: flex;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 4rem;
   margin: 5rem;
 }
 
