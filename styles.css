@@ -507,3 +507,9 @@ height: 1rem;
 flex-shrink: 0;
 aspect-ratio: 1/1;
 }
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
